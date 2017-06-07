@@ -1,0 +1,88 @@
+.wrapper{
+  background:white;
+  max-width:600px;
+  padding:20px;
+  margin:0 auto;
+  position:relative;
+  z-index:0;
+}
+.banner{
+  max-height:300px;
+  overflow:hidden;
+  margin:1%;
+  position:relative;
+  z-index:2;
+}
+.banner h2{
+  position:absolute;
+  top:30px;
+  margin:0;
+  width:100%;
+  text-align:center;
+}
+.wrapeer:after{
+  content = "";
+  display:block;
+  clear:both;
+}
+.service h2, .service p{
+  color:red;
+  margin:10px 0;
+  text-align:center;
+}
+
+.service{
+  float:left;
+  background:aqua;
+  width:29%;
+  margin:1%;
+  padding:1%;
+  position:relative;
+}
+.service:nth-child(1){
+  top:5px;
+}
+.content{
+  background:green;
+  padding:10px;
+  clear:left;
+  margin:5px 1%;
+
+}
+.services:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+section, aside{
+  float:left;
+  width:46%;
+  padding:1%;
+  margin:1%;
+  background:aqua;
+}
+.col:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+nav{
+  background:#333;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1;
+}
+nav ul:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+nav li{
+  list-style-type:none;
+  margin:0 10px;
+  color:white;
+  float:right;
+}
+
